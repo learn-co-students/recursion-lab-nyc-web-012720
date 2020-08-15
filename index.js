@@ -9,6 +9,7 @@ function printString(myString) {
       let mySubString = myString.substring(1, myString.length);
       // Invoke printString() from within, passing in the remainder of the previous string.
       printString(mySubString);
+   } else {
       // exit the recursive function
       return true;
    }
